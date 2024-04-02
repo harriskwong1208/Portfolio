@@ -84,6 +84,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .Skills .item-container .item .experience{
     font-size: 20px;
     color: rgb(156, 158, 160);
@@ -93,4 +94,6 @@ body{
     border-bottom: solid rgb(124, 154, 189);
     padding-bottom: .5%;
 }
-
+#frontEnd, #backEnd{
+    font-size: 22px;
+}
