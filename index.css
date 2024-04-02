@@ -1,14 +1,14 @@
 body{
     background-color: black;
-    padding: 0;
-    margin: 0;
+    padding: 0 0;
+    margin: 0 0;
     font-family: 'Lato';
     color: white;
 }
 .Header {
     display: grid;
     grid-template-columns: 1fr .6fr;
-    grid-template-rows: 500px;
+    grid-template-rows: 350px;
     width: 100%;
 }
 .Header .Intro{
@@ -67,7 +67,7 @@ body{
     padding-bottom: 2%;
     width: 40%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 21px;
     color: white;
 }
 .Skills .item-container{
