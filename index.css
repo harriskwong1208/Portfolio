@@ -35,28 +35,31 @@ body{
 .Header .Intro .LinkedIn:visited{
     color: white;
 }
-.About,.Skills{
+.About,.Skills,.WorkExperience{
     margin-left: 2%;
     color: rgb(124, 154, 189);
 }
-.About .title, .Skills .title{
+.About .title, .Skills .title,.WorkExperience .title{
     display: flex;
 
 }
-.About .title #about, .Skills .title #skills{
+.About .title #about, .Skills .title #skills, .WorkExperience .title #work{
     flex: .2fr;
     font-size: 40px;
 }
-.About .title #line,.Skills .title #line{
+.About .title #line,.Skills .title #line, .WorkExperience .title #line{
     flex: 1fr;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 1% 0 1%;
 }
-.About .title #line hr, .Skills .title #line hr{
+.About .title #line hr, .Skills .title #line hr, .WorkExperience .title #line hr{
     width: 1700px;
     border-color: rgb(124, 154, 189);   
+}
+.WorkExperience .title #line hr{
+    width: 1490px;
 }
 
 .About  .description{
