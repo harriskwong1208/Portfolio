@@ -162,19 +162,17 @@ body{
     padding-left: 0.5%;
 }
 .projects .projects-container{
-    border: solid red;
     display: flex;
     justify-content: space-around;
 }
 .projects .projects-container .project{
-    border: solid white;
 }
 .projects .projects-container .project .img{
     display: flex;
     justify-content: center;
     border: solid red;
     height: 200px;
-    width: 50%;
+    width: 500px;
     margin: 0 auto;
 }
 .projects .projects-container .project .title{
@@ -183,7 +181,6 @@ body{
     color: white;
     display: center;
     justify-content: center;
-    border: solid white;
 }
 .projects .projects-container .project .title span{
     margin-right: 40%;
@@ -191,15 +188,32 @@ body{
 .projects .projects-container .project .skills{
     margin-top: .5%;
     text-align: center;
-    font-size: 15px;
-    color: rgb(124, 154, 189);
+    font-size: 19px;
+    color: rgb(152, 156, 160);
 }
-.projects .projects-container .project .skills span{
-    margin-right: 4%;
+#otakuhub .skills span{
+    margin-left: 9%;
 }
 #studysync .skills span{
-    margin-right: 22.2%;
+    margin-right: 15%;
 }
 .projects .projects-container .project .description{
-    
+    width: 50%;
+    margin: 2% auto 0 auto;
+    font-size: larger;
+}
+#rpg{
+    margin-top: 3%;
+}
+#rpg .img{
+    width: 500px;
+}
+#rpg .title{
+    margin-left: 18.5%;
+}
+#rpg .skills{
+    margin-right: 22.5%;
+}
+#rpg .description{
+    width: 25%;
 }
