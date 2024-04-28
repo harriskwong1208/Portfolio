@@ -1,15 +1,14 @@
 body {
   background-color: black;
-  padding: 0 0;
-  margin: 0 0 1% 0;
   font-family: "Lato";
   color: white;
 }
 .Header {
   display: grid;
-  grid-template-columns: 1fr 0.7fr;
+  grid-template-columns: 0.7fr 0.3fr;
   grid-template-rows: 350px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .Header .Intro {
@@ -64,16 +63,7 @@ body {
   flex: 0.2fr;
   font-size: 40px;
 }
-.About .title #line,
-.Skills .title #line,
-.WorkExperience .title #line,
-.projects .title #line {
-  flex: 1fr;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1% 0 1%;
-}
+
 .About .title #line hr,
 .Skills .title #line hr,
 .WorkExperience .title #line hr {
@@ -213,12 +203,10 @@ body {
   margin-left: 9%;
 }
 #otakuhub {
-  border: solid red 1px;
 }
 #otakuhub .img {
   width: 65%;
   height: 250px;
-  border: solid 1px red;
 }
 #otakuhub img {
   width: 100%;
@@ -248,4 +236,9 @@ body {
 }
 #first-projects {
   margin-top: 3%;
+}
+.newLine {
+  margin-top: 1%;
+  border: solid 1px rgb(124, 154, 189);
+  width: 100%;
 }
