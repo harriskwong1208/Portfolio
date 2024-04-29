@@ -82,12 +82,15 @@ body {
   font-size: 21px;
   color: white;
 }
+.item-container {
+  border: solid 1px red;
+}
+.item-container .item {
+  border: solid white 1px;
+}
 .Skills .item-container {
-  margin-right: 1.5%;
-  padding: 2% 0 2% 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: centers;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
 }
 .Skills .item-container .item {
   color: white;
@@ -233,4 +236,24 @@ body {
 .project_description {
   border: solid red 1px;
   padding: 2% 4%;
+}
+@media (max-width: 1225px) {
+  .project_items {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 600px;
+    width: 100%;
+    grid-row-gap: 20px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .project_item .imgContainer {
+    border: solid 1px red;
+    width: 500px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
