@@ -82,15 +82,13 @@ body {
   font-size: 21px;
   color: white;
 }
-.item-container {
-  border: solid 1px red;
-}
-.item-container .item {
-  border: solid white 1px;
-}
+
 .Skills .item-container {
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
+  margin-right: 1.5%;
+  padding: 2% 0 2% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: centers;
 }
 .Skills .item-container .item {
   color: white;
