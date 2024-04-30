@@ -255,3 +255,15 @@ body {
     align-items: center;
   }
 }
+.temp {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: rgb(124, 154, 189);
+}
+.temp #tempskills {
+  font-size: 40px;
+}
+.temp .tempitem-container {
+  margin: 1% 0;
+  border: solid red;
+}
