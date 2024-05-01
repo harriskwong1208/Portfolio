@@ -42,6 +42,15 @@ body {
 .Header .Intro .LinkedIn:visited {
   color: white;
 }
+
+.Header .Img {
+  border: solid red 1px;
+}
+.Header .imgContainer {
+}
+.Header img {
+  max-width: 300px;
+}
 .About,
 .Skills,
 .WorkExperience,
@@ -279,7 +288,7 @@ body {
   .project_items {
     margin-top: 2%;
     display: grid;
-    grid-template-columns: 600px;
+    grid-template-columns: 300px;
     width: 100%;
     grid-row-gap: 20px;
     width: 100%;
@@ -287,17 +296,32 @@ body {
   }
   .project_item .imgContainer {
     border: solid 1px red;
-    width: 500px;
+    width: 280px;
     margin: 0 auto;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
 @media (max-width: 965px) {
+  .Header {
+    grid-template-columns: 1fr;
+  }
+  .Header .Intro {
+    border: solid red 1px;
+  }
+  .Header #pfp_Img {
+    padding: 0 0;
+  }
+  .Header .imgContainer {
+    margin-left: 3%;
+    padding: 0 0;
+    border: solid red 1px;
+  }
+
   .temp .tempitem-container {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(1, 200px);
   }
 
   .tempitem .temptitle {
@@ -306,5 +330,14 @@ body {
 
   .tempitem .tempexperience span {
     font-size: 0.7rem;
+  }
+  .About .description,
+  .WorkExperience .item .description {
+    font-size: 1rem;
+  }
+
+  .WorkExperience .item .title {
+    font-size: 1.2rem;
+    padding: 5% 0 5% 0;
   }
 }
