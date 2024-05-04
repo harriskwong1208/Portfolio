@@ -223,9 +223,19 @@ body {
   grid-row-gap: 20px;
   width: 100%;
   justify-content: space-around;
+  column-gap: 1%;
 }
 .project_item {
   border: red solid 1px;
+}
+.database-string-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.database-string {
+  text-align: center;
+  font-size: 1rem;
 }
 .project_item .imgContainer {
   border: solid 1px red;
