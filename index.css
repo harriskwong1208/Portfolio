@@ -246,8 +246,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.project-img {
+  width: 100%;
+}
 .project_skills {
-  height: 100px;
+  /* height: 100px; */
   border: solid red 1px;
 }
 .project_description {
@@ -295,20 +298,21 @@ body {
   border-bottom: 0.1px solid rgb(124, 154, 189);
 }
 @media (max-width: 1225px) {
+  .projects {
+    border: red solid 1px;
+  }
   .project_items {
     margin-top: 2%;
     display: grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
     width: 100%;
     grid-row-gap: 20px;
-    width: 100%;
     justify-content: space-around;
   }
   .project_item .imgContainer {
     border: solid 1px red;
-    width: 280px;
+    width: 40%;
     margin: 0 auto;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,5 +353,9 @@ body {
   .WorkExperience .item .title {
     font-size: 1.2rem;
     padding: 5% 0 5% 0;
+  }
+  .project_item .imgContainer {
+    width: 50%;
+    min-width: 250px;
   }
 }
