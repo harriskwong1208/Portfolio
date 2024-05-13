@@ -334,6 +334,13 @@ footer {
   color: rgb(126, 160, 199);
   text-align: center;
 }
+#githubLink,
+#githubLink > :visited {
+  text-decoration: none;
+}
+#githubLink:hover {
+  color: rgb(207, 207, 207);
+}
 @media (max-width: 1225px) {
   .projects {
   }
