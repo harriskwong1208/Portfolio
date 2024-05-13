@@ -90,6 +90,10 @@ body {
   font-size: 21px;
   color: white;
 }
+#discordImg {
+  max-height: 170px;
+  max-width: 170px;
+}
 
 .Skills .item-container {
   margin-right: 1.5%;
