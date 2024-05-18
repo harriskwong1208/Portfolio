@@ -51,6 +51,7 @@ body {
   max-width: 300px;
 }
 .About,
+.FitForSEI,
 .Skills,
 .WorkExperience,
 .projects {
@@ -82,7 +83,8 @@ body {
   width: 1000px;
 }
 
-.About .description {
+.About .description,
+.FitForSEI .description {
   padding-top: 2%;
   padding-bottom: 2%;
   width: 40%;
@@ -401,4 +403,24 @@ footer {
   .project_skills {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+#secondItem {
+  margin-top: 4%;
+}
+#templePic {
+  max-height: 200px;
+  max-width: 200px;
+}
+#codingProjects,
+#analysisProjects {
+  margin-top: 2%;
+}
+#dataInsightSkills {
+  padding-left: 25%;
+}
+#cycleSkills {
+  padding-left: 40%;
+}
+#skillsSection {
+  margin-top: 2%;
 }
