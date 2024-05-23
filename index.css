@@ -33,6 +33,7 @@ body {
   color: rgb(124, 154, 189);
   font-size: 90px;
 }
+
 .Header .Intro .LinkedIn {
   color: white;
   border-bottom: solid rgb(124, 154, 189);
@@ -338,11 +339,13 @@ footer {
 }
 #githubLink,
 #githubLink > :visited {
+  color: rgb(126, 160, 199);
   text-decoration: none;
 }
 #githubLink:hover {
   color: rgb(207, 207, 207);
 }
+
 @media (max-width: 1225px) {
   .projects {
   }
